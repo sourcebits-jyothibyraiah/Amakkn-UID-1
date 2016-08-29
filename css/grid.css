@@ -123,6 +123,16 @@ font-size: 18px;
 margin-left:30px;
 }
 
+.pullpadding{
+    padding-right: 10px;
+}
+.pullp
+{color:#fff;
+text-align: justify;
+font-weight: 100px;}
+.pullbutton{
+    margin-left:0px;
+}
 
 .girdcls{
     width: 350px;
