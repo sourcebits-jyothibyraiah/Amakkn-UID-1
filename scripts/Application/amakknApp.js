@@ -43,13 +43,15 @@ amakknApp.config(function($routeProvider){
         templateUrl : '../../Views/profile.html'
 
     })
-      .when('/listview', {
-        templateUrl : '../../Views/listview.html'
+      .when('/listView', {
+        templateUrl : '../../Views/listView.html',
+        controller  : 'listViewController'
 
     })
 
-     .when('/moredetails', {
-        templateUrl : '../../Views/moredetails.html'
+     .when('/propertyDetails', {
+        templateUrl : '../../Views/propertyDetails.html',
+        controller  : 'propertyDetailsController'
 
     })
 
@@ -160,7 +162,11 @@ amakknApp.config(function($routeProvider){
         templateUrl : '../../Views/listingDetialsCustom.html',
 
     })
+    .when('/listMap', {
+        templateUrl : '../../Views/listMap.html',
+        controller  : 'listViewController'
 
+    })
 
     .when('/morefilter', {
         templateUrl : '../../Views/morefilter.html',

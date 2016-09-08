@@ -7,7 +7,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Amakkn</title>
 
-
     <link rel="stylesheet" href="../scripts/Library/bootstrap-3.3.6-dist/css/bootstrap.min.css" >
     <link rel="stylesheet" href="../scripts/Library/bootstrap-select-1.10.0/dist/css/bootstrap-select.css" >
     <link rel="stylesheet" href="../scripts/Library/Hover-master/css/hover-min.css" >
@@ -15,15 +14,17 @@
     <link rel="stylesheet" href="../css/master.css" >
     <link rel="stylesheet" href="../css/footer.css" >
     <link rel="stylesheet" href="../css/angular-busy.min.css" >
-      <link type="text/css" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500">
-       <link rel="stylesheet" href="../css/rzslider.min.css" >
-  <link rel="stylesheet" href="../css/angular-awesome-slider.css" >
+
+  <link type="text/css" rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500">
+   <link rel="stylesheet" href="../css/rzslider.min.css" >
+      <link rel="stylesheet" href="../css/angular-awesome-slider.css" >
+
 
   </head>
 
-  <body data-ng-app="amakknApp" ng-controller="homeCtrl" class="" >
+  <body data-ng-app="amakknApp" ng-controller="homeCtrl" class="index" >
 <div cg-busy="{promise:myPromise,message:'Loading',backdrop:true,templateUrl:'loader.html',delay:300,minDuration:700}" >
-  	<nav class="navbar navbar-default navbar-fixed-top">
+    <nav class="navbar navbar-default navbar-fixed-top">
   <div class="container-fluid customHeaderColor">
     <!-- Brand and toggle get grouped for better mobile display -->
       <div class="col-md-12">
@@ -160,7 +161,7 @@
         <div class="container-fluid copyRight" >
             <div class="col-md-offset-2 col-md-3  col-sm-6">Copyright 2016 <a href="" class="blueTxt">Amakkn</a>, All Rights Reserved.</div>
           <div class="col-md-2 col-sm-6"> </div>
-            <div class="col-md-5 col-sm-6 blueTxt"><a href="" class="blueTxt">Mobile Site</a> |  <a href="" class="blueTxt" >Leave Feedback</a> |<a href="" class="blueTxt">  Terms of Use </a>|<a href="" class="blueTxt">  Privacy Policy</a></div>
+            <div class="col-md-5 col-sm-6 blueTxt"><a href="" class="blueTxt" >Leave Feedback</a> |<a href="" class="blueTxt">  Terms of Use </a>|<a href="" class="blueTxt">  Privacy Policy</a></div>
         </div>
 
       </footer>
@@ -182,9 +183,10 @@
       <!--<script src="../scripts/Library/imageGrid.js"></script>-->
       <script src="../scripts/Library/angular-busy.min.js"></script>
     <script src="../scripts/Library/ng-map.min.js"></script>
-<script src="../scripts/Library/rzslider.js"></script>
+    <script src="../scripts/Library/rzslider.js"></script>
     <script src="../scripts/Library/angular-sanitize.js"></script>
     <script src="../scripts/Library/angular-awesome-slider.js"></script>
+
 
        <!-- Importing App contollers & services -->
       <script src="../scripts/Application/amakknApp.js"></script>
@@ -196,12 +198,14 @@
       <script src="../scripts/Application/Controllers/rent.controller.js"></script>
       <script src="../scripts/Application/Controllers/sell.controller.js"></script>
       <script src="../scripts/Application/Controllers/signUp.controller.js"></script>
-    <script src="../scripts/Application/Controllers/morefilter.js"></script>
+
+        <script src="../scripts/Application/Controllers/morefilter.js"></script>
 		<script src="../scripts/Application/Directives/passMatch.js"></script>
-       <script src="../scripts/Application/Controllers/toaster.controller.js"></script>
-<script src="../scripts/Application/Controllers/filterBuyPriceRange.js"></script>
-    <script src="../scripts/Application/Controllers/listingDetials.js"></script>
-          <script src="../scripts/Application/Controllers/pricerange.js"></script>
+        <script src="../scripts/Application/Controllers/toaster.controller.js"></script>
+        <script src="../scripts/Application/Controllers/filterBuyPriceRange.js"></script>
+        <script src="../scripts/Application/Controllers/listingDetials.js"></script>
+        <script src="../scripts/Application/Controllers/pricerange.js"></script>
+
       <script src="../scripts/Application/Services/http-service.js"></script>
     <!--<script src="../scripts/Application/Services/authentication.service.js"></script>-->
     <script src="../scripts/Application/Directives/google-plus-signin.js"></script>

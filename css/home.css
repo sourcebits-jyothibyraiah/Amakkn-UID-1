@@ -30,7 +30,7 @@ header h3 {
   }
   header .header-content {
     position: absolute;
-    top: 50%;
+    top: 55%;
     -webkit-transform: translateY(-50%);
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
@@ -247,11 +247,5 @@ article{padding-top: 30px;}
     color: #fff;
     font-weight: 600;
 }
-#textph{
-    color: #fff;
-}
-
-.bg-white
-{
-    background: #fff;
-}
+#textph{color: #fff;}
+.bg-white{background: #fff;}
